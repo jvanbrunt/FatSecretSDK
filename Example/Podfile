@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FatSecretSDK_Example' do
+  pod 'FatSecretSDK', :path => '../'
+
+  target 'FatSecretSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
