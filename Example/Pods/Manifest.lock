@@ -1,0 +1,16 @@
+PODS:
+  - FatSecretSDK (0.1.0)
+
+DEPENDENCIES:
+  - FatSecretSDK (from `../`)
+
+EXTERNAL SOURCES:
+  FatSecretSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FatSecretSDK: 008f318cc7611ebdb6defc7df66f78c39d384726
+
+PODFILE CHECKSUM: c3883720d7cca80e946661adc831eda4f6ebe3b0
+
+COCOAPODS: 1.0.0
