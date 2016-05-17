@@ -38,5 +38,6 @@ A library for interacting with FatSecret.com food database api.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'MRCEnumerable', '~> 0.1.1'
+s.dependency 'JSONModel', '~>1.2.0'
 end

@@ -1,5 +1,9 @@
 PODS:
-  - FatSecretSDK (0.1.0)
+  - FatSecretSDK (0.1.0):
+    - JSONModel (~> 1.2.0)
+    - MRCEnumerable (~> 0.1.1)
+  - JSONModel (1.2.0)
+  - MRCEnumerable (0.1.1)
 
 DEPENDENCIES:
   - FatSecretSDK (from `../`)
@@ -9,7 +13,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FatSecretSDK: 008f318cc7611ebdb6defc7df66f78c39d384726
+  FatSecretSDK: 2c1924f05f49a079b028b3c5fb14bc72f16ce9b6
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  MRCEnumerable: 71f3ed6a55b02c007ddf9a212c303c7448227d48
 
 PODFILE CHECKSUM: c3883720d7cca80e946661adc831eda4f6ebe3b0
 
