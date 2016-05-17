@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class FSKFood, FSKFoodSearchResult, FSKExerciseResult;
+@class FSKFood, FSKFoodSearchResult;
 
 @interface FSKClient : NSObject
 
@@ -19,7 +19,7 @@
         success:(void(^)(FSKFood *food))success
         failure:(void(^)(NSError *error))failure;
 
-- (void)getExercisesSuccess:(void(^)(FSKExerciseResult *result))success
+- (void)getExercisesSuccess:(void(^)(NSArray *exercises))success
                     failure:(void(^)(NSError *error))failure;
 
 @end

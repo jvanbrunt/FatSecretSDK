@@ -41,8 +41,6 @@
 		909CD6C71CEB50F000057F0D /* FSKServings.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CD6C51CEB50F000057F0D /* FSKServings.m */; };
 		909CD6CA1CEB534E00057F0D /* FSKFoodSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 909CD6C81CEB534E00057F0D /* FSKFoodSearchResult.h */; };
 		909CD6CB1CEB534E00057F0D /* FSKFoodSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CD6C91CEB534E00057F0D /* FSKFoodSearchResult.m */; };
-		909CD6CE1CEB590A00057F0D /* FSKExerciseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 909CD6CC1CEB590A00057F0D /* FSKExerciseResult.h */; };
-		909CD6CF1CEB590A00057F0D /* FSKExerciseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CD6CD1CEB590A00057F0D /* FSKExerciseResult.m */; };
 		909CD6D21CEB594000057F0D /* FSKExercise.h in Headers */ = {isa = PBXBuildFile; fileRef = 909CD6D01CEB594000057F0D /* FSKExercise.h */; };
 		909CD6D31CEB594000057F0D /* FSKExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CD6D11CEB594000057F0D /* FSKExercise.m */; };
 		9793A1A4E3B7B6C72D93DDB43576EB1A /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF48990EBE0B8A272AAD4A2EB38810F7 /* JSONModel.framework */; };
@@ -181,8 +179,6 @@
 		909CD6C51CEB50F000057F0D /* FSKServings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKServings.m; sourceTree = "<group>"; };
 		909CD6C81CEB534E00057F0D /* FSKFoodSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKFoodSearchResult.h; sourceTree = "<group>"; };
 		909CD6C91CEB534E00057F0D /* FSKFoodSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKFoodSearchResult.m; sourceTree = "<group>"; };
-		909CD6CC1CEB590A00057F0D /* FSKExerciseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKExerciseResult.h; sourceTree = "<group>"; };
-		909CD6CD1CEB590A00057F0D /* FSKExerciseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKExerciseResult.m; sourceTree = "<group>"; };
 		909CD6D01CEB594000057F0D /* FSKExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKExercise.h; sourceTree = "<group>"; };
 		909CD6D11CEB594000057F0D /* FSKExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKExercise.m; sourceTree = "<group>"; };
 		90BD0D6929C3DF7E678742BC2CD34972 /* OAuth+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
@@ -476,8 +472,6 @@
 				909CD6C51CEB50F000057F0D /* FSKServings.m */,
 				909CD6C81CEB534E00057F0D /* FSKFoodSearchResult.h */,
 				909CD6C91CEB534E00057F0D /* FSKFoodSearchResult.m */,
-				909CD6CC1CEB590A00057F0D /* FSKExerciseResult.h */,
-				909CD6CD1CEB590A00057F0D /* FSKExerciseResult.m */,
 				909CD6D01CEB594000057F0D /* FSKExercise.h */,
 				909CD6D11CEB594000057F0D /* FSKExercise.m */,
 			);
@@ -562,7 +556,6 @@
 				909CD6C61CEB50F000057F0D /* FSKServings.h in Headers */,
 				3BFA4100A32C8ED7C8DFD61C182D1170 /* FatSecretSDK-umbrella.h in Headers */,
 				909CD6D21CEB594000057F0D /* FSKExercise.h in Headers */,
-				909CD6CE1CEB590A00057F0D /* FSKExerciseResult.h in Headers */,
 				811EB784F98B4CCC29134309A29F6466 /* FSKClient.h in Headers */,
 				909CD6CA1CEB534E00057F0D /* FSKFoodSearchResult.h in Headers */,
 				F4BB8DE18BB85FDE23E7147CDA147C46 /* FSKFood.h in Headers */,
@@ -748,7 +741,6 @@
 				909CD6CB1CEB534E00057F0D /* FSKFoodSearchResult.m in Sources */,
 				82D6D04BFE2D16965619CB6E6ECF486C /* NSData+Base64.m in Sources */,
 				909CD6C71CEB50F000057F0D /* FSKServings.m in Sources */,
-				909CD6CF1CEB590A00057F0D /* FSKExerciseResult.m in Sources */,
 				4CAA74A2EC6C342EF5E14C3869182E73 /* OAuth+Additions.m in Sources */,
 				A41CF2FE053BF6EF44D3EE585AEA3A30 /* OAuthCore.m in Sources */,
 			);

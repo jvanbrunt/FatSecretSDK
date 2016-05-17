@@ -5,7 +5,7 @@
 #import "OAuthCore.h"
 #import "FSKFood.h"
 #import "FSKFoodSearchResult.h"
-#import "FSKExerciseResult.h"
+#import "FSKExercise.h"
 
 static NSString *const kFatSecretAPIURL = @"http://platform.fatsecret.com/rest/server.api";
 
@@ -88,11 +88,11 @@ static NSString *const kFoodId = @"food_id";
     }];
 }
 
-- (void)getExercisesSuccess:(void (^)(FSKExerciseResult *))success failure:(void (^)(NSError *))failure {
+- (void)getExercisesSuccess:(void (^)(NSArray *exercises))success failure:(void (^)(NSError *))failure {
     [self GET:kExerciseGetMethod parameters:@{} success:^(id data, NSURLResponse *response) {
         if (success) {
-            FSKExerciseResult *result = [[FSKExerciseResult alloc] initWithDictionary:data[@"exercises"] error:nil];
-            success(result);
+            NSArray *exercies = [FSKExercise arrayOfModelsFromDictionaries:data[@"exercises"][@"exercise"] error:nil];
+            success(exercies);
         }
     } failure:^(NSError *error, NSURLResponse *response) {
         if (failure) {

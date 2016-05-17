@@ -10,19 +10,14 @@
 
 #import "FSViewController.h"
 
-static NSString *const kFatSecretKey = @"KEY";
-static NSString *const kFatSecretSecret = @"SECRET";
-
-@interface FSViewController ()
-
-@end
+static NSString *const kFatSecretKey = @"2da17c45535e49578ad7cd68b8e9f23e";
+static NSString *const kFatSecretSecret = @"099fca6214cc443eb5c17611eaf8d152";
 
 @implementation FSViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
     FSKClient *client = [FSKClient clientWithKey:kFatSecretKey secret:kFatSecretSecret];
     
@@ -38,17 +33,12 @@ static NSString *const kFatSecretSecret = @"SECRET";
         NSLog(@"Error: %@", error.localizedDescription);
     }];
     
-    [client getExercisesSuccess:^(FSKExerciseResult *result) {
-        NSLog(@"Exercises: %@", result);
+    [client getExercisesSuccess:^(NSArray *exercises) {
+        NSLog(@"Exercises: %@", exercises);
     } failure:^(NSError *error) {
         NSLog(@"ERROR: %@", error.localizedDescription);
     }];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
