@@ -10,8 +10,8 @@
 
 #import "FSViewController.h"
 
-static NSString *const kFatSecretKey = @"2da17c45535e49578ad7cd68b8e9f23e";
-static NSString *const kFatSecretSecret = @"099fca6214cc443eb5c17611eaf8d152";
+static NSString *const kFatSecretKey = @"YOUR_KEY";
+static NSString *const kFatSecretSecret = @"YOUR_SECRET";
 
 @implementation FSViewController
 
