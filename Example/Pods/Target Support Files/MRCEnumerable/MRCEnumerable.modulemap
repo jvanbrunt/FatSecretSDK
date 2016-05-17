@@ -1,0 +1,6 @@
+framework module MRCEnumerable {
+  umbrella header "MRCEnumerable-umbrella.h"
+
+  export *
+  module * { export * }
+}
