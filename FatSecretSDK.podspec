@@ -25,7 +25,7 @@ A library for interacting with FatSecret.com food database api.
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jacob Van Brunt" => "jvanbrunt@developertown.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FatSecretSDK.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jvanbrunt/FatSecretSDK.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
